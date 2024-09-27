@@ -1,0 +1,78 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 3,
+    "passes": 0,
+    "pending": 0,
+    "failures": 3,
+    "start": "2024-09-27T18:05:29.355Z",
+    "end": "2024-09-27T18:05:29.753Z",
+    "duration": 398
+  },
+  "tests": [
+    {
+      "title": "returns an array of thank you messages for each name provided to the function",
+      "fullTitle": "index.js writeCards() returns an array of thank you messages for each name provided to the function",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: writeCards is not defined\n    at Context.<anonymous> (test/indexTest.js:19:7)\n    at process.processImmediate (node:internal/timers:483:21)",
+        "message": "writeCards is not defined"
+      }
+    },
+    {
+      "title": "invokes console.log once for each number, counting down from the number provided to zero",
+      "fullTitle": "index.js countDown() invokes console.log once for each number, counting down from the number provided to zero",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: countDown is not defined\n    at Context.<anonymous> (test/indexTest.js:33:7)\n    at process.processImmediate (node:internal/timers:483:21)",
+        "message": "countDown is not defined"
+      }
+    },
+    {
+      "title": "logs each number when counting down, starting from the number provided",
+      "fullTitle": "index.js countDown() logs each number when counting down, starting from the number provided",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: countDown is not defined\n    at Context.<anonymous> (test/indexTest.js:39:7)\n    at process.processImmediate (node:internal/timers:483:21)",
+        "message": "countDown is not defined"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "returns an array of thank you messages for each name provided to the function",
+      "fullTitle": "index.js writeCards() returns an array of thank you messages for each name provided to the function",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: writeCards is not defined\n    at Context.<anonymous> (test/indexTest.js:19:7)\n    at process.processImmediate (node:internal/timers:483:21)",
+        "message": "writeCards is not defined"
+      }
+    },
+    {
+      "title": "invokes console.log once for each number, counting down from the number provided to zero",
+      "fullTitle": "index.js countDown() invokes console.log once for each number, counting down from the number provided to zero",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: countDown is not defined\n    at Context.<anonymous> (test/indexTest.js:33:7)\n    at process.processImmediate (node:internal/timers:483:21)",
+        "message": "countDown is not defined"
+      }
+    },
+    {
+      "title": "logs each number when counting down, starting from the number provided",
+      "fullTitle": "index.js countDown() logs each number when counting down, starting from the number provided",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: countDown is not defined\n    at Context.<anonymous> (test/indexTest.js:39:7)\n    at process.processImmediate (node:internal/timers:483:21)",
+        "message": "countDown is not defined"
+      }
+    }
+  ],
+  "passes": []
+}
